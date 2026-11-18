@@ -33,7 +33,7 @@ A web-based Library Management System developed using React, Node.js, Express.js
 ### Backend
 1. Open the backend folder in PowerShell.
 2. Run `npm install`.
-3. Configure the MySQL database connection in `db.js`.
+3. Create a .env file in the backend folder and configure DB_HOST, DB_USER, DB_PASSWORD and DB_NAME..
 4. Run `npm run dev`.
 
 ### Frontend
@@ -43,6 +43,7 @@ A web-based Library Management System developed using React, Node.js, Express.js
 
 ## Database
 Create a MySQL database named `library_management` and configure the required tables.
+The database must contain the books, users and transactions tables before starting the application.
 
 ## Developed For
 Web Application Development Assignment.
